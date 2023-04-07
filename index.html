@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <title>Personal Portfolio</title>
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg px-5" style="background-color: #3e3c3c">
+      <a class="navbar-brand fw-bold text-white" href="#">My Logo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand mx-3" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="white"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"
+                  />
+                  <path d="m3 7l9 6l9-6" />
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container-fluid p-5" style="background-color: #1c1a19">
+      <div class="row">
+        <div class="col-1 d-flex flex-column justify-content-center">
+          <img
+            class="my-2"
+            src="./assets/github.png"
+            alt="Github icon"
+            width="19"
+          />
+          <img
+            class="my-2"
+            src="./assets/Linkedin.png"
+            alt="Linkedin icon"
+            width="19"
+          />
+          <img
+            class="my-2"
+            src="./assets/angelist.png"
+            alt="angellist icon"
+            width="19"
+          />
+          <img
+            class="my-2"
+            src="./assets/twitter.png"
+            alt="twitter icon"
+            width="19"
+          />
+          <img
+            class="my-2"
+            src="./assets/Medium.png"
+            alt="medium icon"
+            width="19"
+          />
+        </div>
+        <div class="col-4 d-flex flex-column justify-content-center">
+          <h2 style="color: #f55800">
+            Hey There. <br />
+            I’m Denio.
+          </h2>
+          <p class="text-white">I’m a Software Developer</p>
+          <p class="text-white">
+            I can help you build a product, feature or website. Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-6">
+          <img src="./assets/Illustration-header@2x.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid work p-5 mb-5">
+      <div class="col">
+        <div class="row">
+          <h2 class="col-4 pe-0" style="font-size: 40px">My Recent Works</h2>
+          <hr class="col-8 mt-3 p-5" />
+        </div>
+        <div class="row">
+          <img
+            class="col-5"
+            src="./assets/Img-Placeholder-desktop.png"
+            alt=""
+            height="350"
+          />
+          <div class="col-5 px-4">
+            <h3 class="row">Multi-Post Stories</h3>
+            <p class="row">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. This has been the industry's standard dummy
+              text ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul class="d-flex list-unstyled justify-content-start">
+              <li>
+                <button type="button" class="btn btn-light text-black">
+                  CSS
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-light text-black">
+                  HTML
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-light text-black">
+                  Bootstrap
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-light text-black">
+                  Ruby
+                </button>
+              </li>
+            </ul>
+            <button type="button" class="btn btn2 btn-warning">
+              See Project
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/card1.png" alt="..." />
+            <div class="card-img-overlay" style="margin-top: 200px">
+              <h5 class="card-title">Data Dashboard Healthcare</h5>
+              <p class="card-text" style="margin-bottom: 50px">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. Has been the industry's standard.
+              </p>
+              <button type="button" class="btn btn-light text-black">
+                CSS
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                HTML
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Bootstrap
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Ruby
+              </button>
+            </div>
+            <button type="button" class="btn btn2 btn-warning">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/card1.png" alt="..." />
+            <div class="card-img-overlay" style="margin-top: 200px">
+              <h5 class="card-title">Data Dashboard Healthcare</h5>
+              <p class="card-text" style="margin-bottom: 50px">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. Has been the industry's standard.
+              </p>
+              <button type="button" class="btn btn-light text-black">
+                CSS
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                HTML
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Bootstrap
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Ruby
+              </button>
+            </div>
+            <button type="button" class="btn btn2 btn-warning">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/card1.png" alt="..." />
+            <div class="card-img-overlay" style="margin-top: 200px">
+              <h5 class="card-title">Data Dashboard Healthcare</h5>
+              <p class="card-text" style="margin-bottom: 50px">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. Has been the industry's standard.
+              </p>
+              <button type="button" class="btn btn-light text-black">
+                CSS
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                HTML
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Bootstrap
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Ruby
+              </button>
+            </div>
+            <button type="button" class="btn btn2 btn-warning">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/card1.png" alt="..." />
+            <div class="card-img-overlay" style="margin-top: 200px">
+              <h5 class="card-title">Data Dashboard Healthcare</h5>
+              <p class="card-text" style="margin-bottom: 50px">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. Has been the industry's standard.
+              </p>
+              <button type="button" class="btn btn-light text-black">
+                CSS
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                HTML
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Bootstrap
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Ruby
+              </button>
+            </div>
+            <button type="button" class="btn btn2 btn-warning">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/card1.png" alt="..." />
+            <div class="card-img-overlay" style="margin-top: 200px">
+              <h5 class="card-title">Data Dashboard Healthcare</h5>
+              <p class="card-text" style="margin-bottom: 50px">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. Has been the industry's standard.
+              </p>
+              <button type="button" class="btn btn-light text-black">
+                CSS
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                HTML
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Bootstrap
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Ruby
+              </button>
+            </div>
+            <button type="button" class="btn btn2 btn-warning">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/card1.png" alt="..." />
+            <div class="card-img-overlay" style="margin-top: 200px">
+              <h5 class="card-title">Data Dashboard Healthcare</h5>
+              <p class="card-text" style="margin-bottom: 50px">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. Has been the industry's standard.
+              </p>
+              <button type="button" class="btn btn-light text-black">
+                CSS
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                HTML
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Bootstrap
+              </button>
+              <button type="button" class="btn btn-light text-black">
+                Ruby
+              </button>
+            </div>
+            <button type="button" class="btn btn2 btn-warning">
+              See Project
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <section
+        class="container-fluid pt-5"
+        style="background-color: #262626; padding-top: 20%"
+      >
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-4">
+            <h2 style="font-size: 4rem; color: #f55800">About me</h2>
+            <p class="text-white">
+              Hey there! I can help you build a product, feature or website.
+              Look through some of my work and experience! If you like what you
+              see and have a project you need coded, don’t hesitate to contact
+              me.
+            </p>
+            <button class="btn btn-type-a btn-warning btn2">
+              Get my resume
+            </button>
+          </div>
+          <div class="col-2"></div>
+          <img
+            src="./assets/illustration-aboutme@2x.png"
+            alt=""
+            class="col-5"
+          />
+        </div>
+        <div class="row about-me-section-break my-5">
+          <hr class="" />
+        </div>
+        <div class="d-flex proficiencies justify-content-between">
+          <ul class="text-white list-unstyled">
+            <li class="text-white">Languages</li>
+            <li class="text-white">Javascript</li>
+            <li class="text-white">Ruby</li>
+            <li class="text-white">CSS</li>
+            <li class="text-white">HTML</li>
+          </ul>
+          <ul class="text-white list-unstyled">
+            <li class="text-white">Frameworks</li>
+            <li class="text-white">React.js</li>
+            <li class="text-white">Ruby on rails</li>
+            <li class="text-white">RSpec</li>
+            <li class="text-white">Capybara</li>
+            <li class="text-white">Selenium</li>
+          </ul>
+          <ul class="text-white list-unstyled">
+            <li class="text-white">Skills</li>
+            <li class="text-white">Database Management</li>
+            <li class="text-white">Version Control</li>
+            <li class="text-white">CLI</li>
+            <li class="text-white">API Design</li>
+            <li class="text-white">Web Development</li>
+          </ul>
+        </div>
+      </section>
+      <section class="container-fluid">
+        <div class="row p-5">
+          <h3
+            class="col-4 text-body-emphasis"
+            style="font-weight: 600; line-height: 30px"
+          >
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h3>
+          <div class="col">
+            <form action="">
+              <input
+                type="text"
+                placeholder="Fullname"
+                class="form-control m-2 border-0 border-bottom border-1 rounded-0"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="form-control m-2 border-0 border-bottom border-1 rounded-0"
+              />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="3"
+                class="form-control m-2"
+                placeholder="Write me something..."
+                style="border: none"
+              ></textarea>
+              <button class="btn btn2 btn-warning">Get in touch</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="container-fluid p-4 border-none border-top">
+        <div class="d-flex justify-content-center">
+          <img
+            class="my-2"
+            src="./assets/Icon-GitHub.png"
+            alt="Github icon"
+            width="19"
+          />
+          <img
+            class="my-2"
+            src="./assets/Icon-Linkedin.png"
+            alt="Linkedin icon"
+            width="19"
+          />
+          <img
+            class="my-2"
+            src="./assets/Icon-Angelist.png"
+            alt="angellist icon"
+            width="19"
+          />
+          <img
+            class="my-2"
+            src="./assets/Icon-Twitter.png"
+            alt="twitter icon"
+            width="19"
+          />
+          <img
+            class="my-2"
+            src="./assets/Icon-Medium.png"
+            alt="medium icon"
+            width="19"
+          />
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
